@@ -8,29 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Portfolio: Elisa Blomberg</title>
 </head>
+
+Fix favicon & tabindex="0" & aria-label=""
+
 <body>
     <header class="top-section">
         <img class="hero-background-image" src="ryan-stone-U3cctUBucn0-unsplash.jpg" alt="Background image">
         <!--BUTTON-ICONS WITH LINKS-->
         <div class="button-icons-container">
             <div class="circle-1">
-                <button class="linkedin-icon" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';">
+                <button class="linkedin-icon" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';" tabindex="0" aria-label="Link to LinkedIn profile">
                     <!-- <img class="linkedin-icon" src="./assets/iconmonstr-linkedin-1.svg" alt="Link to Elisa's profile at LinkedIn"> -->
                 </button>
             </div>
             <div class="circle-1">
-                <button class="github-icon" onclick="window.location.href='https://github.com/bloeli';">
+                <button class="github-icon" onclick="window.location.href='https://github.com/bloeli';" tabindex="0" aria-label="Link to GitHub profile">
                     <!-- <img class="github-icon" src="./assets/github.svg" alt="Link to Elisa's profile at GitHub"> -->
                 </button>
             </div>
             <div class="circle-3">
-                <button class="stack-overflow-icon" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';">
+                <button class="stack-overflow-icon" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';" tabindex="0" aria-label="Link to Stack Overflow profile">
                     <!-- <img class="stack-overflow-icon" src="./assets/93ae73c51933403f4cf8512e8cf05115.svg" alt="Link to Elisa's profile at Stack Overflow"> -->
                 </button>
             </div>
         </div>
-        <img class="profile-picture" src="profile-picture-3.jpg" alt="Picture of Elisa Blomberg">
-        <div class="title-container">
+        <img class="profile-picture" src="profile-picture-3.jpg" alt="Profile picture" tabindex="0" aria-label="Profale picture">
+        <div class="title-container" tabindex="0">
             <div class="sub-title-container">
                 <p class="sub-title-part-1">PORTFOLIO:</p>
                 <p class="sub-title-part-2">ELISA BLOMBERG</p>
@@ -42,14 +45,14 @@
     </header>
 
     <main class="other-sections">
-        <div class="summary-section">
+        <div class="summary-section"tabindex="0" aria-label="Short description of Elisa">
             <p>Hello! I'm a junior frontend developer. When turning 30 years old I decided to discover the world of frontend. For several years, since an evening in 2014, I thought about becoming a frontend devoloper. That evening I was with a friend that works as an enginner in computer science. We were talking about career paths and I was'nt really pleased with the path becoming a career counselor... To be continued...</p>
         </div>
-        <div class="tech-section">
+        <div class="tech-section" tabindex="0" aria-label="Technology knowledges">
             <h2>TECH</h2>
             <p>HTML, CSS, Flexbox, JavaScript,ES6, Web Accessibly, API:s, Mob-programming, Pair-programming, GitHub</p>
         </div>
-        <div class="projects">
+        <div class="projects" tabindex="0" aria-label="Projects I have made">
             <div class="featured-projects" >
                 <h2>FEATURED PROJECTS</h2>
             </div>
@@ -57,42 +60,47 @@
                 <h3>OTHER PROJECTS</h3>
             </div>
         </div>
-        <div class="thoughts">
+        <div class="thoughts"tabindex="0" aria-label="My thoughts about code">
             <h2>MY THOUGHTS ABOUT CODE</h2>
             <p></p>
             <h3>MORE THOUGHTS</h3>
             <p></p>
         </div>
-        <div class="skills">
+        <div class="skills" tabindex="0" aria-label="My skills">
             <h2>SKILLS</h2>
             <p></p>
         </div>
-        <div class="more">
+        <div class="more" tabindex="0" aria-label="Links again for more information">
             <h2>FOR MORE</h2>
-            <div class="button-icons-container-2">
+            <div class="button-icons-container-2>
                 <div class="circle-4">
-                    <button class="linkedin-icon-2" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';">
+                    <button class="linkedin-icon-2" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';" "tabindex="0" aria-label="Link to LinkedIn profile">
                         <!-- <img class="linkedin-icon" src="./assets-2/iconmonstr-linkedin-1 (1).svg" alt="Link to Elisa's profile at LinkedIn"> -->
                     </button>
                 </div>
                 <div class="circle-5">
-                    <button class="github-icon-2" onclick="window.location.href='https://github.com/bloeli';">
+                    <button class="github-icon-2" onclick="window.location.href='https://github.com/bloeli';" tabindex="0" aria-label="Link to GitHub profile">
                         <!-- <img class="github-icon" src="./assets-2/github (1).svg" alt="Link to Elisa's profile at GitHub"> -->
                     </button>
                 </div>
                 <div class="circle-6">
-                    <button class="stack-overflow-icon-2" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';">
+                    <button class="stack-overflow-icon-2" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';" tabindex="0" aria-label="Link to Stack Overflow profile">
                         <!-- <img class="stack-overflow-icon" src="./assets-2/93ae73c51933403f4cf8512e8cf05115 (1).svg" alt="Link to Elisa's profile at Stack Overflow"> -->
                     </button>
                 </div>
             </div>
         </div>
    
-        <div class="contact">
+        <div class="contact" tabindex="0" aria-label="Contact information">
             <h2>CONTACT</h2>
             <p>Elisa Blomberg</p>
-            <p>+46 76 30 32 741</p>
-            <p>elisa.blomberg@outlook.com</p>
+            <a class="phone" tabindex="0" href="tel:+46763032741">
+                <p>+46 76 30 32 741</p>
+            </a>
+            <a class="email" tabindex="0" href="mailto: elisa.blomberg@outlook.com">
+                <p>elisa.blomberg@outlook.com</p>
+            </a>
+            
         </div>
     </main>
 </body>
