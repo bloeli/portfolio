@@ -75,9 +75,51 @@
             <h2>TECH</h2>
             <p>HTML, CSS, Flexbox, JavaScript,ES6, Web Accessibly, API:s, Mob-programming, Pair-programming, GitHub</p>
         </div>
-        <div class="projects" tabindex="0" aria-label="Projects I have made">
-            <div class="featured-projects" >
-                <h2>FEATURED PROJECTS</h2>
+        <div class="projects-section">
+            <h2>FEATURED PROJECTS</h2>
+            <div 
+                class="featured-projects" 
+                tabindex="0" 
+                aria-label="Projects I have made"
+            >
+                <div class="weather-app">
+                    <a 
+                        href="https://github.com/bloeli/project-weather-app/tree/master/code"  
+                        tabindex="0" 
+                        aria-label="Link to Weather App on GitHub" 
+                        role="link"
+                        target="_blank"
+                    >
+                    <img src="weather-app.JPG" alt="weather app image">
+                    <h4>WEATHER APP</h4>
+                    <p>Responsive weather app, fetching API's from OpenWeather.<span class="arrow">>></span></p>
+                    <div class="code-tags">
+                        <div class="tags">HTML5</div>
+                        <div class="tags">CSS</div>
+                        <div class="tags">JavaScript</div>
+                        <div class="tags">API</div>
+                    </div>
+                    </a>
+                </div>
+                <div class="pizza-bot">
+                    <a 
+                        href="https://github.com/bloeli/project-pizza-bot" 
+                        tabindex="0" 
+                        aria-label="Link to Pizza Bot on Git Hub"
+                        role="link" 
+                        target="_blank"
+                    >
+                    <img src="pizza-bot.JPG" alt="pizza bot image">
+                    <h4>PIZZA BOT</h4>
+                    <p>Responsive Pizza Bot made by me and my teammate Marjaana.<span class="arrow">>></span></p>
+                    <div class="code-tags">
+                        <div class="tags">Pair-prog.</div>
+                        <div class="tags">JavaScript</div>
+                        <div class="tags">HTML</div>
+                        <div class="tags">CSS</div>
+                    </div>
+                    </a>
+                </div>
             </div>
             <div class="other-projects" >
                 <h3>OTHER PROJECTS</h3>
@@ -85,31 +127,76 @@
         </div>
         <div class="thoughts"tabindex="0" aria-label="My thoughts about code">
             <h2>MY THOUGHTS ABOUT CODE</h2>
+<!--KLICKBARA KORT MED IMG OCH LITE TEXT KNUTEN TILL EN LÄNK SOM JAG SKAPAR EFTER VARJE SPRINT, TEX LÄNK TILL LINKEDIN INKÄGG-->
             <p></p>
             <h3>MORE THOUGHTS</h3>
             <p></p>
         </div>
         <div class="skills" tabindex="0" aria-label="My skills">
             <h2>SKILLS</h2>
-            <p></p>
+            <div class="skills-container">
+                <div class="code">
+                    <h3>CODE</h3>
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                        <p>ES6</p>
+                </div>
+                <div class="toolbox">
+                    <h3>TOOLBOX</h3>
+                    <p>Visual Studio Code</p>
+                    <p>Git</p>
+                    <p>Slack</p>
+                    <p>Terminal</p>
+                    <p>API</p>
+                    <p>CodePen</p>
+                    <p>CodeSandbox</p>
+                    <p>Jamboard</p>
+                </div>
+                <div class="more">
+                    <h3>MORE</h3>
+                    <p>Web design</p>
+                    <p>Responsiveness</p>
+                    <P>Accessibility</p>
+                    <p>Team Work</p>
+                    <p>Mobile First</p>
+                </div>         
+            </div>
+            <div class="upcoming">
+                <h3>UPCOMING</h3>
+                <p></p>
+            </div> 
         </div>
-        <div class="more" tabindex="0" aria-label="Links for more information">
+        <div 
+            class="for-more" 
+            tabindex="0" 
+            aria-label="Links for more information"
+        >
             <h2>FOR MORE</h2>
             <div class="button-icons-container-2">
-                <div class="circle-4">
-                    <button class="linkedin-icon-2" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';" tabindex="0" aria-label="Links to LinkedIn profile">
-                        <!-- <img class="linkedin-icon" src="./assets-2/iconmonstr-linkedin-1 (1).svg" alt="Link to Elisa's profile at LinkedIn"> -->
-                    </button>
+                <div class="linkedin">
+                    <div class="circle-4">
+                        <button class="linkedin-icon-2" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';" tabindex="0" aria-label="Links to LinkedIn profile">
+                            <!-- <img class="linkedin-icon" src="./assets-2/iconmonstr-linkedin-1 (1).svg" alt="Link to Elisa's profile at LinkedIn"> -->
+                        </button>
+                    </div>
+                    <p>LINKEDIN</p>
                 </div>
-                <div class="circle-5">
-                    <button class="github-icon-2" onclick="window.location.href='https://github.com/bloeli';" tabindex="0" aria-label="Links to GitHub profile">
-                        <!-- <img class="github-icon" src="./assets-2/github (1).svg" alt="Link to Elisa's profile at GitHub"> -->
-                    </button>
+                <div class="github">
+                    <div class="circle-5">
+                        <button class="github-icon-2" onclick="window.location.href='https://github.com/bloeli';" tabindex="0" aria-label="Links to GitHub profile">
+                            <!-- <img class="github-icon" src="./assets-2/github (1).svg" alt="Link to Elisa's profile at GitHub"> -->
+                        </button>
+                    </div>
+                    <p>GITHUB</p>
                 </div>
-                <div class="circle-6">
-                    <button class="stack-overflow-icon-2" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';" tabindex="0" aria-label="Links to LStack Overflow profile">
-                        <!-- <img class="stack-overflow-icon" src="./assets-2/93ae73c51933403f4cf8512e8cf05115 (1).svg" alt="Link to Elisa's profile at Stack Overflow"> -->
-                    </button>
+                <div class="stackoverflow">
+                    <div class="circle-6">
+                        <button class="stack-overflow-icon-2" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';" tabindex="0" aria-label="Links to LStack Overflow profile">
+                            <!-- <img class="stack-overflow-icon" src="./assets-2/93ae73c51933403f4cf8512e8cf05115 (1).svg" alt="Link to Elisa's profile at Stack Overflow"> -->
+                        </button>
+                    </div>
+                    <p>STACKOVERFLOW</p>
                 </div>
             </div>
         </div>

@@ -196,9 +196,9 @@
         text-align: center;
     }
 
-    .projects {
+    .projects-section {
         font-family: 'Montserrat', sans-serif;
-        height: 250px;
+        height: 1000px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -209,16 +209,48 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    
     }
 
-    .projects h2 {
+    .projects-section h2 {
         width: fit-content;
         background-color: purple;
         color: white;
     }
+    
+    .featured-projects {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 
-    .projects h3 {
+    .weather-app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .weather-app img {
+        width: 70%;
+        height: auto;
+    }
+
+    .pizza-bot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .pizza-bot img {
+        width: 70%;
+        height: auto;
+    }
+
+    .pizza-bot h4 
+
+    .other-projects h3 {
         width: fit-content;
         color: purple;
     }
@@ -248,8 +280,7 @@
     }
 
     .skills {
-        font-family: 'Montserrat', sans-serif;
-        height: 250px;
+        height: 500px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -263,17 +294,39 @@
     }
 
     .skills h2 {
+        font-family: 'Montserrat', sans-serif;
         width: fit-content;
         background-color: purple;
         color: white;
     }
 
-    .skills p {
-        width: fit-content;
-        color: white;
+    .skills-container {
+        width: 700px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
 
-    .more {
+    .skills-container h3 {
+        color: purple;
+    } 
+
+    .upcoming {
+        width: 700px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .upcoming {
+        color: purple;
+    }
+
+    .for-more {
         font-family: 'Montserrat', sans-serif;
         height: 250px;
         padding-top: 30px;
@@ -287,16 +340,21 @@
         flex-direction: column;
     }
 
-    .more h2 {
+    .for-more h2 {
         width: fit-content;
         background-color: purple;
         color: white;
     }
 
     .button-icons-container-2 {
-        width: 200px;
+        width: 400px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    .button-icons-container-2 p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
     }
 
     .circle-4 {
@@ -363,9 +421,11 @@
     .circle-4:hover {
         transform: scale(1.1);
     }
+
     .circle-5:hover {
         transform: scale(1.1);
     }
+
     .circle-6:hover {
         transform: scale(1.1);
     }
@@ -383,7 +443,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        
     }
 
     .contact h2 {
