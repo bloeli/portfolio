@@ -1,397 +1,402 @@
 
+/* HEADER/TOP SECTION */
+    .hero-background-image {
+        width: 1300px;
+        height: 500px;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        position: absolute;
+        z-index: 1;
+    }
 
-.hero-background-image {
-    width: 1300px;
-    height: 500px;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    position: absolute;
-    z-index: 1;
-}
+    .title-container {
+        top: 80px;
+        left: 150px;
+        opacity: 1;
+        width: 400px;
+        height: auto;
+        position: relative;
+        z-index: 4;
+        color: white;
+    }
 
-.button-icons-container {
-    position: absolute;
-    top: 60px;;
-    left: 800px;
-    z-index: 2;
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-}
+    .sub-title-container {
+        display: flex;
+        justify-content: row;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
 
-.circle-1 {
-    width: 55px;
-    height: 55px;
-    border: 3px solid #FFFFFF;
-    border-radius: 50%;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .sub-title-part-1 {
+        padding-right: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
-.linkedin-icon {
-    width: 35px;
-    height: 35px;
-    margin-left: 6px;
-    background: transparent url('./assets/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
+    .sub-title-part-2 {
+        font-weight: bold;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
-/* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
+    .title-container h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 70px;
+        margin: 2px;
+        padding: 2px;
+    }
 
-.circle-2 {
-    width: 55px;
-    height: 55px;
-    border: 3px solid #FFFFFF;
-    border-radius: 50%;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .title-container h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        margin: 2px;
+        padding: 2px;
+    }
 
-.github-icon {
-    width: 35px;
-    height: 35px;
-    margin-left: 1px;
-    background: transparent url('./assets/github.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
+    .button-icons-container {
+        position: absolute;
+        top: 60px;;
+        left: 800px;
+        z-index: 2;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.circle-3 {
-    width: 55px;
-    height: 55px;
-    border: 3px solid #FFFFFF;
-    border-radius: 50%;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .circle-1 {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #FFFFFF;
+        border-radius: 50%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.stack-overflow-icon {
-    width: 35px;
-    height: 35px;
-    background: transparent url('./assets/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
+    .linkedin-icon {
+        width: 35px;
+        height: 35px;
+        margin-left: 6px;
+        background: transparent url('./assets/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+    }
 
-.circle-1:hover {
-    transform: scale(1.1);
-}
-.circle-2:hover {
-    transform: scale(1.1);
-}
-.circle-3:hover {
-    transform: scale(1.1);
-}
+    /* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
 
-.title-container {
-    top: 80px;
-    left: 150px;
-    opacity: 1;
-    width: 400px;
-    height: auto;
-    position: relative;
-    z-index: 4;
-    color: white;
-}
+    .circle-2 {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #FFFFFF;
+        border-radius: 50%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.sub-title-container {
-    display: flex;
-    justify-content: row;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
+    .github-icon {
+        width: 35px;
+        height: 35px;
+        margin-left: 1px;
+        background: transparent url('./assets/github.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+    }
 
-.sub-title-part-1 {
-    padding-right: 10px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
+    .circle-3 {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #FFFFFF;
+        border-radius: 50%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.sub-title-part-2 {
-    font-weight: bold;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
+    .stack-overflow-icon {
+        width: 35px;
+        height: 35px;
+        background: transparent url('./assets/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+    }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
-    margin: 2px;
-    padding: 2px;
-}
+    .circle-1:hover {
+        transform: scale(1.1);
+    }
+    .circle-2:hover {
+        transform: scale(1.1);
+    }
+    .circle-3:hover {
+        transform: scale(1.1);
+    }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    margin: 2px;
-    padding: 2px;
-}
+    .profile-picture {
+        top: 270px;
+        left: 750px;
+        opacity: 1;
+        width: 250px;
+        height: auto;
+        border-radius: 50%;
+        border: white solid 2px;
+        position: absolute;
+        z-index: 3;
+    }
 
-.profile-picture {
-    top: 270px;
-    left: 750px;
-    opacity: 1;
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    border: white solid 2px;
-    position: absolute;
-    z-index: 3;
-}
+/* MAIN/OTHER SECTIONS: */
+    .other-sections {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 500px;
+        left: 0;
+        width: 1300px;
+    }
 
-.other-sections {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 500px;
-    left: 0;
-    width: 1300px;
-}
+    .summary-section {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-right: 300px;
+        padding-left: 300px;
+        background-color: lightgrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.summary-section {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-right: 300px;
-    padding-left: 300px;
-    background-color: lightgrey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .tech-section {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.tech-section {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-top: 30px;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+    .tech-section h2 {
+        background-color: purple;
+        color: white;
+        width: fit-content;
+    }
 
-.tech-section h2 {
-    background-color: purple;
-    color: white;
-    width: fit-content;
-}
+    .tech-section p {
+        color: black;
+        text-align: center;
+    }
 
-.tech-section p {
-    color: black;
-    text-align: center;
-}
+    .projects {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+        background-color: lightgrey;
+        width: 1300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
 
-.projects {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-top: 30px;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    background-color: lightgrey;
-    width: 1300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
- 
-}
+    .projects h2 {
+        width: fit-content;
+        background-color: purple;
+        color: white;
+    }
 
-.projects h2 {
-    width: fit-content;
-    background-color: purple;
-    color: white;
-}
+    .projects h3 {
+        width: fit-content;
+        color: purple;
+    }
 
-.projects h3 {
-    width: fit-content;
-    color: purple;
-}
+    .thoughts {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+        width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.thoughts {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-top: 30px;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    .thoughts h2 {
+        width: fit-content;
+        background-color: purple;
+        color: white;
+    }
 
-}
+    .thoughts h3 {
+        color: purple;
+    }
 
-.thoughts h2 {
-    width: fit-content;
-    background-color: purple;
-    color: white;
-}
+    .skills {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+        background-color: lightgrey;
+        width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.thoughts h3 {
-    color: purple;
-}
+    .skills h2 {
+        width: fit-content;
+        background-color: purple;
+        color: white;
+    }
 
-.skills {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-top: 30px;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    background-color: lightgrey;
-    width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+    .skills p {
+        width: fit-content;
+        color: white;
+    }
 
-.skills h2 {
-    width: fit-content;
-    background-color: purple;
-    color: white;
-}
+    .more {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+        width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.skills p {
-    width: fit-content;
-    color: white;
-}
+    .more h2 {
+        width: fit-content;
+        background-color: purple;
+        color: white;
+    }
 
-.more {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-top: 30px;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+    .button-icons-container-2 {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.more h2 {
-    width: fit-content;
-    background-color: purple;
-    color: white;
-}
+    .circle-4 {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #800080;
+        border-radius: 50%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.button-icons-container-2 {
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-}
+    .linkedin-icon-2 {
+        width: 35px;
+        height: 35px;
+        margin-left: 6px;
+        background: transparent url('./assets-2/iconmonstr-linkedin-1\ \(1\).svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+    }
 
-.circle-4 {
-    width: 55px;
-    height: 55px;
-    border: 3px solid #800080;
-    border-radius: 50%;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    /* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
 
-.linkedin-icon-2 {
-    width: 35px;
-    height: 35px;
-    margin-left: 6px;
-    background: transparent url('./assets-2/iconmonstr-linkedin-1\ \(1\).svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
+    .circle-5 {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #800080;
+        border-radius: 50%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-/* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
+    .github-icon-2 {
+        width: 35px;
+        height: 35px;
+        margin-left: 1px;
+        background: transparent url('./assets-2/github\ \(1\).svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+    }
 
-.circle-5 {
-    width: 55px;
-    height: 55px;
-    border: 3px solid #800080;
-    border-radius: 50%;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .circle-6 {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #800080;
+        border-radius: 50%;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.github-icon-2 {
-    width: 35px;
-    height: 35px;
-    margin-left: 1px;
-    background: transparent url('./assets-2/github\ \(1\).svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
+    .stack-overflow-icon-2 {
+        width: 35px;
+        height: 35px;
+        background: transparent url('./assets-2/93ae73c51933403f4cf8512e8cf05115\ \(1\).svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+    }
 
-.circle-6 {
-    width: 55px;
-    height: 55px;
-    border: 3px solid #800080;
-    border-radius: 50%;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .circle-4:hover {
+        transform: scale(1.1);
+    }
+    .circle-5:hover {
+        transform: scale(1.1);
+    }
+    .circle-6:hover {
+        transform: scale(1.1);
+    }
 
-.stack-overflow-icon-2 {
-    width: 35px;
-    height: 35px;
-    background: transparent url('./assets-2/93ae73c51933403f4cf8512e8cf05115\ \(1\).svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
+    .contact {
+        font-family: 'Montserrat', sans-serif;
+        height: 250px;
+        padding-top: 30px;
+        padding-right: 300px;
+        padding-left: 300px;
+        padding-bottom: 30px;
+        background-color:purple;
+        width: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
 
-.circle-4:hover {
-    transform: scale(1.1);
-}
-.circle-5:hover {
-    transform: scale(1.1);
-}
-.circle-6:hover {
-    transform: scale(1.1);
-}
+    .contact h2 {
+        width: fit-content;
+        background-color: purple;
+        color: white;
+    }
 
-.contact {
-    font-family: 'Montserrat', sans-serif;
-    height: 250px;
-    padding-top: 30px;
-    padding-right: 300px;
-    padding-left: 300px;
-    padding-bottom: 30px;
-    background-color:purple;
-    width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+    .contact p {
+        width: fit-content;
+        color: white;
+    }
 
-.contact h2 {
-    width: fit-content;
-    background-color: purple;
-    color: white;
-}
-
-.contact p {
-    width: fit-content;
-    color: white;
-}
+    .email , .phone {
+        text-decoration: none;
+    }
