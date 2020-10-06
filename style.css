@@ -1,3 +1,6 @@
+body {
+    background-color: white;
+}
 
 /* HEADER/TOP SECTION */
     .hero-background-image {
@@ -10,7 +13,7 @@
     }
 
     .title-container {
-        top: 80px;
+        top: 60px;
         left: 150px;
         width: 400px;
         height: auto;
@@ -88,8 +91,6 @@
         border: none;
     }
 
-    /* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
-
     .github-icon {
         cursor: pointer;
         width: 35px;
@@ -141,6 +142,28 @@
         align-items: center;
         justify-content: center;
     }
+
+    .summary-line {
+        height: 3px;
+        width: 50px;
+        background: purple;
+        position: relative;
+        float: left;
+        top: 7px; 
+        margin-right: 8px;
+      }
+
+      .summary-line::after {
+        content: '';
+        height: 10px;
+        width: 10px;
+        position: relative;
+        float: right;
+        top: -3px;
+        right: -1px;
+        border-radius: 50%;
+        background: purple;
+      }
 
     .tech-section {
         font-family: 'Montserrat', sans-serif;
