@@ -12,7 +12,6 @@
     .title-container {
         top: 80px;
         left: 150px;
-        opacity: 1;
         width: 400px;
         height: auto;
         position: relative;
@@ -66,6 +65,7 @@
     }
 
     .circle-1, .circle-2, .circle-3 {
+        cursor: pointer;
         width: 55px;
         height: 55px;
         border: 3px solid #FFFFFF;
@@ -75,42 +75,41 @@
         align-items: center;
     }
 
-    .circle-1, .circle-2, .circle-3 {
+    .circle-1:hover, .circle-2:hover, .circle-3:hover {
         transform: scale(1.1);
     }
 
     .linkedin-icon {
+        cursor: pointer;
         width: 35px;
         height: 35px;
         margin-left: 6px;
         background: transparent url('./assets/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
         border: none;
     }
 
     /* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
 
     .github-icon {
+        cursor: pointer;
         width: 35px;
         height: 35px;
         margin-left: 1px;
         background: transparent url('./assets/github.svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
         border: none;
     }
 
     .stack-overflow-icon {
+        cursor: pointer;
         width: 35px;
         height: 35px;
         background: transparent url('./assets/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
         border: none;
     }
 
     .profile-picture {
         top: 270px;
         left: 750px;
-        opacity: 1;
         width: 250px;
         height: auto;
         border-radius: 50%;
@@ -158,6 +157,9 @@
 
     .tech-section h2 {
         background-color: purple;
+        margin-bottom: 40px;
+        padding-right: 7px;
+        padding-left: 7px;
         color: white;
         width: fit-content;
     }
@@ -169,7 +171,7 @@
 
     .projects-section {
         font-family: 'Roboto', sans-serif;
-        height: 1000px;
+        height: 1400px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -184,6 +186,9 @@
 
     .projects-section h2 {
         width: fit-content;
+        margin-bottom: 70px;
+        padding-right: 7px;
+        padding-left: 7px;
         background-color: purple;
         color: white;
         font-family: 'Montserrat', sans-serif;
@@ -197,13 +202,22 @@
         flex-direction: row;
     }
 
-    .weather-app, .pizza-bot, .buisness-site, .food-review-site {
+    .weather-app, .buisness-site {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 300px;
-        margin: 30px;
+        margin-right: 40px;
+    }
+
+    .pizza-bot, .food-review-site {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 40px;
     }
 
     .weather-app img, .pizza-bot img, .buisness-site img, .food-review-site img {
@@ -229,13 +243,59 @@
         background-color: purple;
         color: white;
         margin: 2px;
+        padding-top: 3px;
         padding-left: 8px;
         padding-right: 8px;
+        padding-bottom: 3px;
+    }
+
+    .other-projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     
     .other-projects h3 {
         width: fit-content;
         color: purple;
+    }
+
+    .other-projects-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .cluedo-picker, .news-site {
+        margin-bottom: 20px;
+    }
+
+    .cluedo-picker a, .news-site a {
+        text-decoration: none;
+    }
+
+    .other-projects-text {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .other-projects-text h4 {
+        color: purple;
+        padding-right: 1px;
+        text-decoration: underline purple;
+    }
+
+    .other-projects-text p {
+        color: black;
+        text-decoration: underline black;
+    }
+
+    .arrow {
+        color: purple;
+        font-weight: bold;
+        text-decoration: underline purple;
     }
 
     .thoughts {
@@ -254,6 +314,9 @@
 
     .thoughts h2 {
         width: fit-content;
+        margin-bottom: 40px;
+        padding-right: 7px;
+        padding-left: 7px;
         background-color: purple;
         color: white;
     }
@@ -263,7 +326,7 @@
     }
 
     .skills {
-        height: 500px;
+        height: 700px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -278,18 +341,20 @@
 
     .skills h2 {
         font-family: 'Montserrat', sans-serif;
+        margin-bottom: 40px;
+        padding-right: 7px;
+        padding-left: 7px;
         width: fit-content;
         background-color: purple;
         color: white;
     }
 
     .skills-container {
-        width: 700px;
+        width: 1300px;
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
         text-align: center;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
     }
 
@@ -297,8 +362,13 @@
         color: purple;
     } 
 
+    .code, .toolbox, .more {
+        width: 200px;
+        margin: 33px;
+    }
+
     .upcoming {
-        width: 700px;
+        width: 600px;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         display: flex;
@@ -325,6 +395,9 @@
 
     .for-more h2 {
         width: fit-content;
+        margin-bottom: 40px;
+        padding-right: 7px;
+        padding-left: 7px;
         background-color: purple;
         color: white;
     }
@@ -335,82 +408,60 @@
         justify-content: space-around;
     }
     .button-icons-container-2 p {
+        cursor: pointer;
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        color: purple;
         font-weight: bold;
     }
 
-    .circle-4 {
+    .linkedin, .github, .stackoverflow {
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .circle-4, .circle-5, .circle-6 {
+        cursor: pointer;
         width: 55px;
         height: 55px;
-        border: 3px solid #800080;
+        border: 3px solid purple;
         border-radius: 50%;
-        opacity: 1;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .circle-4, .circle-5, .circle-6 {
+        transform: scale(1.1);
+        /* No hover effect here on the icons as in the header, just for bigger icons this way */
     }
 
     .linkedin-icon-2 {
+        cursor: pointer;
         width: 35px;
         height: 35px;
         margin-left: 6px;
-        background: transparent url('./assets-2/iconmonstr-linkedin-1\ \(1\).svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
+        background: transparent url('./assets-2/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
         border: none;
-    }
-
-    /* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
-
-    .circle-5 {
-        width: 55px;
-        height: 55px;
-        border: 3px solid #800080;
-        border-radius: 50%;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .github-icon-2 {
+        cursor: pointer;
         width: 35px;
         height: 35px;
         margin-left: 1px;
-        background: transparent url('./assets-2/github\ \(1\).svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
+        background: transparent url('./assets-2/github.svg') 0% 0% no-repeat padding-box;
         border: none;
-    }
-
-    .circle-6 {
-        width: 55px;
-        height: 55px;
-        border: 3px solid #800080;
-        border-radius: 50%;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .stack-overflow-icon-2 {
+        cursor: pointer;
         width: 35px;
         height: 35px;
-        background: transparent url('./assets-2/93ae73c51933403f4cf8512e8cf05115\ \(1\).svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
+        background: transparent url('./assets-2/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
         border: none;
-    }
-
-    .circle-4:hover {
-        transform: scale(1.1);
-    }
-
-    .circle-5:hover {
-        transform: scale(1.1);
-    }
-
-    .circle-6:hover {
-        transform: scale(1.1);
     }
 
     .contact {

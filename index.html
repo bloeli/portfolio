@@ -75,13 +75,9 @@
             <h2>TECH</h2>
             <p>HTML, CSS, Flexbox, JavaScript,ES6, Web Accessibly, API:s, Mob-programming, Pair-programming, GitHub</p>
         </div>
-        <div class="projects-section">
+        <div class="projects-section" tabindex="0" aria-label="Projects I have made">
             <h2>FEATURED PROJECTS</h2>
-            <div 
-                class="featured-projects-1" 
-                tabindex="0" 
-                aria-label="Projects I have made"
-            >
+            <div class="featured-projects-1">
                 <div class="weather-app">
                     <a 
                         href="https://github.com/bloeli/project-weather-app/tree/master/code"  
@@ -92,7 +88,7 @@
                     >
                     <img src="weatherapp.JPG" alt="weather app image">
                     <h4>WEATHER APP</h4>
-                    <p>Responsive weather app, fetching API's from OpenWeather.<span class="arrow">>></span></p>
+                    <p>Responsive weather app, fetching API's from OpenWeather <span class="arrow">>></span></p>
                     <div class="code-tags">
                         <div class="tags">HTML5</div>
                         <div class="tags">CSS</div>
@@ -111,7 +107,7 @@
                     >
                     <img src="pizzabot.JPG" alt="pizza bot image">
                     <h4>PIZZA BOT</h4>
-                    <p>Responsive Pizza Bot made by me and my teammate Marjaana.<span class="arrow">>></span></p>
+                    <p>Responsive Pizza Bot made by me and my teammate Marjaana <span class="arrow">>></span></p>
                     <div class="code-tags">
                         <div class="tags">Pair-prog.</div>
                         <div class="tags">JavaScript</div>
@@ -121,11 +117,7 @@
                     </a>
                 </div>
             </div>
-            <div 
-                class="featured-projects-2" 
-                tabindex="0" 
-                aria-label="Projects I have made"
-            >
+            <div class="featured-projects-2">
                 <div class="buisness-site">
                     <a 
                         href="https://github.com/bloeli/project-business-site" 
@@ -136,7 +128,7 @@
                     >
                     <img src="metal-festival.JPG" alt="Buisness site image">
                     <h4>BUISNESS SITE</h4>
-                    <p>Responsive buisness site with a form and an accordion.<span class="arrow">>></span></p>
+                    <p>Responsive buisness site with a form and an accordion <span class="arrow">>></span></p>
                     <div class="code-tags">
                         <div class="tags">JavaScript</div>
                         <div class="tags">HTML</div>
@@ -153,8 +145,9 @@
                         target="_blank"
                     >
                     <img src="foodie.JPG" alt="Food review site image">
+                    <div class="featured-projects-text"></div>
                     <h4>FOOD REVIEW SITE</h4>
-                    <p>Food review site built with two teammates. Fetching Zomato API.<span class="arrow">>></span></p>
+                    <p>Food review site built with two teammates. Fetching Zomato API <span class="arrow">>></span></p>
                     <div class="code-tags">
                         <div class="tags">JavaScript</div>
                         <div class="tags">HTML</div>
@@ -165,6 +158,45 @@
             </div>
             <div class="other-projects" >
                 <h3>OTHER PROJECTS</h3>
+                <div class="other-projects-container">
+                    <div class="cluedo-picker">
+                        <a 
+                            href="https://github.com/bloeli/project-cluedo" 
+                            tabindex="0" 
+                            aria-label="Link to Cluedo Picker site on Git Hub"
+                            role="link" 
+                            target="_blank"
+                        >
+                            <div class="other-projects-text">
+                                <h4>CLUEDO PICKER.</h4>
+                                <p>This week's project was to build a cluedo picker <span class="arrow">>></span></p>
+                            </div>
+                        </a>
+                        <div class="code-tags">
+                            <div class="tags">JavaScript</div>
+                            <div class="tags">HTML</div>
+                            <div class="tags">CSS</div>
+                        </div>
+                    </div>
+                    <div class="news-site">
+                        <a 
+                            href="https://github.com/bloeli/project-news-site" 
+                            tabindex="0" 
+                            aria-label="Link to News Site site on Git Hub"
+                            role="link" 
+                            target="_blank"
+                        >
+                            <div class="other-projects-text">
+                                <h4>NEWS SITE "HACK HEALTH".</h4>
+                                <p>First individual project creating a news site <span class="arrow">>></span></p>
+                            </div>
+                        </a>
+                        <div class="code-tags">
+                            <div class="tags">HTML</div>
+                            <div class="tags">CSS</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="thoughts"tabindex="0" aria-label="My thoughts about code">
@@ -219,7 +251,6 @@
                 <div class="linkedin">
                     <div class="circle-4">
                         <button class="linkedin-icon-2" onclick="window.location.href='https://www.linkedin.com/in/elisa-blomberg-02b269189/';" tabindex="0" aria-label="Links to LinkedIn profile">
-                            <!-- <img class="linkedin-icon" src="./assets-2/iconmonstr-linkedin-1 (1).svg" alt="Link to Elisa's profile at LinkedIn"> -->
                         </button>
                     </div>
                     <p>LINKEDIN</p>
@@ -227,7 +258,6 @@
                 <div class="github">
                     <div class="circle-5">
                         <button class="github-icon-2" onclick="window.location.href='https://github.com/bloeli';" tabindex="0" aria-label="Links to GitHub profile">
-                            <!-- <img class="github-icon" src="./assets-2/github (1).svg" alt="Link to Elisa's profile at GitHub"> -->
                         </button>
                     </div>
                     <p>GITHUB</p>
@@ -235,7 +265,6 @@
                 <div class="stackoverflow">
                     <div class="circle-6">
                         <button class="stack-overflow-icon-2" onclick="window.location.href='https://stackoverflow.com/c/technigo/users/110';" tabindex="0" aria-label="Links to LStack Overflow profile">
-                            <!-- <img class="stack-overflow-icon" src="./assets-2/93ae73c51933403f4cf8512e8cf05115 (1).svg" alt="Link to Elisa's profile at Stack Overflow"> -->
                         </button>
                     </div>
                     <p>STACKOVERFLOW</p>
