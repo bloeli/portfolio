@@ -5,7 +5,6 @@
         height: 500px;
         top: 0;
         left: 0;
-        opacity: 1;
         position: absolute;
         z-index: 1;
     }
@@ -61,20 +60,23 @@
         top: 60px;;
         left: 800px;
         z-index: 2;
-        width: 200px;
+        width: 225px;
         display: flex;
         justify-content: space-between;
     }
 
-    .circle-1 {
+    .circle-1, .circle-2, .circle-3 {
         width: 55px;
         height: 55px;
         border: 3px solid #FFFFFF;
         border-radius: 50%;
-        opacity: 1;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .circle-1, .circle-2, .circle-3 {
+        transform: scale(1.1);
     }
 
     .linkedin-icon {
@@ -88,17 +90,6 @@
 
     /* Must be an easier way to get the icon in the center and having a border-circle round it, tried fix it in the class linkedin-icon but did not work, so added an other div/class called circle-1... */
 
-    .circle-2 {
-        width: 55px;
-        height: 55px;
-        border: 3px solid #FFFFFF;
-        border-radius: 50%;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .github-icon {
         width: 35px;
         height: 35px;
@@ -108,33 +99,12 @@
         border: none;
     }
 
-    .circle-3 {
-        width: 55px;
-        height: 55px;
-        border: 3px solid #FFFFFF;
-        border-radius: 50%;
-        opacity: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .stack-overflow-icon {
         width: 35px;
         height: 35px;
         background: transparent url('./assets/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
         border: none;
-    }
-
-    .circle-1:hover {
-        transform: scale(1.1);
-    }
-    .circle-2:hover {
-        transform: scale(1.1);
-    }
-    .circle-3:hover {
-        transform: scale(1.1);
     }
 
     .profile-picture {
@@ -163,6 +133,7 @@
 
     .summary-section {
         font-family: 'Montserrat', sans-serif;
+        color: black;
         height: 250px;
         padding-right: 300px;
         padding-left: 300px;
@@ -197,7 +168,7 @@
     }
 
     .projects-section {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
         height: 1000px;
         padding-top: 30px;
         padding-right: 300px;
@@ -215,41 +186,53 @@
         width: fit-content;
         background-color: purple;
         color: white;
+        font-family: 'Montserrat', sans-serif;
     }
-    
-    .featured-projects {
+
+    .featured-projects-1, .featured-projects-2 {
+        margin-bottom: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
     }
 
-    .weather-app {
+    .weather-app, .pizza-bot, .buisness-site, .food-review-site {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 300px;
+        margin: 30px;
     }
 
-    .weather-app img {
-        width: 70%;
-        height: auto;
+    .weather-app img, .pizza-bot img, .buisness-site img, .food-review-site img {
+        width: 300px;
+        height: 210px;
     }
 
-    .pizza-bot {
+    .weather-app a, .pizza-bot a, .buisness-site a, .food-review-site a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .weather-app h4, .pizza-bot h4, .buisness-site h4, .food-review-site h4 {
+        color: purple;
+    }
+
+    .code-tags {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    .pizza-bot img {
-        width: 70%;
-        height: auto;
+    .tags {
+        background-color: purple;
+        color: white;
+        margin: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
-
-    .pizza-bot h4 
-
+    
     .other-projects h3 {
         width: fit-content;
         color: purple;
