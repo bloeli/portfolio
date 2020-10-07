@@ -748,5 +748,188 @@ body {
 
   /*** Media for tablet ***/
   @media (min-width: 668px) and (max-width: 1024px) {
+        
+    /* HEADER */
+    .hero-background-image {
+        height: 450px;
+    }
 
-  }
+    .title-container {
+        top: 90px;
+        left: 7%;
+        width: 30%;
+    }
+
+    .sub-title-container {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .sub-title-part-1 {
+        padding-right: 4px;
+    }
+
+    .title-container h1 {
+        font-size: 60px;
+    }
+
+    .title-container h2 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .button-icons-container {
+        top: 90px;;
+        left: 65%;
+        width: 26%;
+    }
+
+    .circle-1, .circle-2, .circle-3 {
+        border: 5px solid #FFFFFF;
+        transform: scale(0.75);
+    }
+
+    .linkedin-icon, .github-icon, .stack-overflow-icon {
+        transform: scale(0.8);
+    }
+
+    .profile-picture {
+        top: 230px;
+        left: 62%;
+        width: 30%;
+        border: white solid 4px;
+    }
+
+    /* MAIN/OTHER SECTIONS: */
+    .other-sections {
+        top: 450px;
+    }
+
+    .summary-section {
+        height: 250px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .tech-section {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .projects-section {
+        height: 1350px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .featured-projects-1, .featured-projects-2 {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .weather-app, .buisness-site {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .pizza-bot, .food-review-site {
+        margin-left: 0px;
+    }
+
+    .buisness-site, .food-review-site {
+        display: none;
+    }
+
+    .other-projects-container {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .food-review-site-2, .buisness-site-2 {
+        display: block;
+    }
+
+    .food-review-site-2 h4, .buisness-site-2 h4{
+        margin-right: 20px;
+    }
+
+    .news-site {
+        display: none;
+    }
+
+    .thoughts {
+        height: 250px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .h2-thoughts {
+        display: block;
+    }
+
+    .h2-thoughts-mobile {
+        display: none;
+    }
+
+    .thoughts h3 {
+        color: purple;
+    }
+
+    .skills {
+        height: 740px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .code, .toolbox {
+        width: 200px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .more {
+        width: 200px;
+    }
+
+    .upcoming-mobile {
+        display: block;
+        width: 200px;
+    }
+
+    .upcoming {
+    display: none;
+    }
+
+    .for-more {
+        height: 200px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .button-icons-container-2 {
+        width: 500px;
+    }
+    .button-icons-container-2 p {
+        font-size: 16px;
+    }
+
+    .contact {
+        height: 300px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+}
