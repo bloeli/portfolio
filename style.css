@@ -180,7 +180,7 @@ body {
 
     .tech-section h2 {
         background-color: purple;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         padding-right: 7px;
         padding-left: 7px;
         color: white;
@@ -190,11 +190,20 @@ body {
     .tech-section p {
         color: black;
         text-align: center;
+        margin: 4px;
+    }
+
+    .tech-section span {
+        color: purple;
+    }
+
+    .tech-section a {
+        text-decoration: none;
     }
 
     .projects-section {
         font-family: 'Roboto', sans-serif;
-        height: 1400px;
+        height: 1230px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -209,7 +218,7 @@ body {
 
     .projects-section h2 {
         width: fit-content;
-        margin-bottom: 70px;
+        margin-bottom: 30px;
         padding-right: 7px;
         padding-left: 7px;
         background-color: purple;
@@ -349,7 +358,7 @@ body {
     }
 
     .skills {
-        height: 700px;
+        height: 630px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -364,7 +373,7 @@ body {
 
     .skills h2 {
         font-family: 'Montserrat', sans-serif;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         padding-right: 7px;
         padding-left: 7px;
         width: fit-content;
@@ -395,16 +404,20 @@ body {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         display: flex;
+        align-items: center;
         justify-content: flex-start;
+        flex-direction: row;
+        margin-top: 30px;
     }
 
-    .upcoming {
+    .upcoming h3 {
         color: purple;
+        margin-right: 10px;
     }
 
     .for-more {
         font-family: 'Montserrat', sans-serif;
-        height: 250px;
+        height: 200px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -418,7 +431,7 @@ body {
 
     .for-more h2 {
         width: fit-content;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         padding-right: 7px;
         padding-left: 7px;
         background-color: purple;
