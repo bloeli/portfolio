@@ -1,12 +1,11 @@
 body {
-    width: 100%;
     background-color: white;
 }
 
 /* MEDIA FOR DESKTOP */
 
   /*** Media for desktop ***/
-  @media (min-width: 1025px)
+  /*@media (min-width: 1025px) */
 
 /* HEADER */
     .top-section {
@@ -311,12 +310,16 @@ body {
         flex-direction: column;
     }
 
-    .cluedo-picker, .news-site {
+    .cluedo-picker, .news-site, .food-review-site-2, .buisness-site-2 {
         margin-bottom: 20px;
     }
 
-    .cluedo-picker a, .news-site a {
+    .cluedo-picker a, .news-site a, .food-review-site-2 a, .buisness-site-2 a {
         text-decoration: none;
+    }
+
+    .food-review-site-2, .buisness-site-2 {
+        display: none;
     }
 
     .other-projects-text {
@@ -356,7 +359,17 @@ body {
         flex-direction: column;
     }
 
-    .thoughts h2 {
+    .h2-thoughts {
+        width: fit-content;
+        margin-bottom: 40px;
+        padding-right: 7px;
+        padding-left: 7px;
+        background-color: purple;
+        color: white;
+    }
+
+    .h2-thoughts-mobile {
+        display: none;
         width: fit-content;
         margin-bottom: 40px;
         padding-right: 7px;
@@ -414,6 +427,7 @@ body {
     .more {
         width: 120px;
     }
+
     .upcoming {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
@@ -422,6 +436,10 @@ body {
         justify-content: flex-start;
         flex-direction: row;
         margin-top: 30px;
+    }
+
+    .upcoming-mobile {
+        display: none;
     }
 
     .upcoming h3 {
@@ -544,9 +562,188 @@ body {
         text-decoration: none;
     }
 
-    /*** Media for mobile ***/
-  @media (min-width: 1px) and (max-width: 667px){
+/*** Media for mobile ***/
+    @media (min-width: 1px) and (max-width: 667px){
+ /* HEADER */
+    .hero-background-image {
+        height: 450px;
+    }
 
+    .title-container {
+        top: 120px;
+        left: 20px;
+        width: 70%;
+    }
+
+    .sub-title-container {
+        font-size: 12px;
+    }
+
+    .sub-title-part-1 {
+        padding-right: 1px;
+    }
+
+    .title-container h1 {
+        font-size: 30px;
+    }
+
+    .title-container h2 {
+        font-size: 15px;
+    }
+
+    .button-icons-container {
+        top: 50px;;
+        left: 45%;
+        width: 46%;
+    }
+
+    .circle-1, .circle-2, .circle-3 {
+        border: 5px solid #FFFFFF;
+        transform: scale(0.75);
+    }
+
+    .linkedin-icon, .github-icon, .stack-overflow-icon {
+        transform: scale(0.8);
+    }
+
+    .profile-picture {
+        top: 310px;
+        left: 50%;
+        width: 40%;
+        border: white solid 4px;
+    }
+
+    /* MAIN/OTHER SECTIONS: */
+    .other-sections {
+        top: 450px;
+    }
+
+    .summary-section {
+        height: 250px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .tech-section {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .projects-section {
+        height: 1350px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .featured-projects-1, .featured-projects-2 {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .weather-app, .buisness-site {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .pizza-bot, .food-review-site {
+        margin-left: 0px;
+    }
+
+    .buisness-site, .food-review-site {
+        display: none;
+    }
+
+    .other-projects-container {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .food-review-site-2, .buisness-site-2 {
+        display: block;
+    }
+
+    .food-review-site-2 h4, .buisness-site-2 h4{
+        margin-right: 20px;
+    }
+
+    .news-site {
+        display: none;
+    }
+
+    .thoughts {
+        height: 250px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .h2-thoughts {
+        display: none
+    }
+
+    .h2-thoughts-mobile {
+        display: block;
+    }
+
+    .thoughts h3 {
+        color: purple;
+    }
+
+    .skills {
+        height: 740px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .code, .toolbox {
+        width: 120px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .more {
+        width: 120px;
+    }
+
+    .upcoming-mobile {
+        display: block;
+        width: 120px;
+    }
+
+    .upcoming {
+       display: none;
+    }
+
+    .for-more {
+        height: 200px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .button-icons-container-2 {
+        width: 300px;
+    }
+    .button-icons-container-2 p {
+        font-size: 10px;
+    }
+
+    .contact {
+        height: 380px;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
   }
 
   /*** Media for tablet ***/
