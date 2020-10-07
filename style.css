@@ -1,10 +1,20 @@
 body {
+    width: 100%;
     background-color: white;
 }
 
-/* HEADER/TOP SECTION */
+/* MEDIA FOR DESKTOP */
+
+  /*** Media for desktop ***/
+  @media (min-width: 1025px)
+
+/* HEADER */
+    .top-section {
+        width: 100%;
+    }
+    
     .hero-background-image {
-        width: 1300px;
+        width: 100%;
         height: 500px;
         top: 0;
         left: 0;
@@ -14,8 +24,8 @@ body {
 
     .title-container {
         top: 60px;
-        left: 150px;
-        width: 400px;
+        left: 15%;
+        width: 30%;
         height: auto;
         position: relative;
         z-index: 4;
@@ -60,9 +70,9 @@ body {
     .button-icons-container {
         position: absolute;
         top: 60px;;
-        left: 800px;
+        left: 60%;
         z-index: 2;
-        width: 225px;
+        width: 17%;
         display: flex;
         justify-content: space-between;
     }
@@ -110,8 +120,8 @@ body {
 
     .profile-picture {
         top: 270px;
-        left: 750px;
-        width: 250px;
+        left: 58%;
+        width: 20%;
         height: auto;
         border-radius: 50%;
         border: white solid 2px;
@@ -121,6 +131,7 @@ body {
 
 /* MAIN/OTHER SECTIONS: */
     .other-sections {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -128,10 +139,10 @@ body {
         position: absolute;
         top: 500px;
         left: 0;
-        width: 1300px;
     }
 
     .summary-section {
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
         color: black;
         height: 250px;
@@ -166,6 +177,7 @@ body {
       }
 
     .tech-section {
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
         height: 250px;
         padding-top: 30px;
@@ -202,14 +214,14 @@ body {
     }
 
     .projects-section {
+        width: 100%;
         font-family: 'Roboto', sans-serif;
         height: 1230px;
         padding-top: 30px;
-        padding-right: 300px;
-        padding-left: 300px;
+        padding-right: 200px;
+        padding-left: 200px;
         padding-bottom: 30px;
         background-color: lightgrey;
-        width: 1300px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -331,13 +343,13 @@ body {
     }
 
     .thoughts {
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
         height: 250px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
         padding-bottom: 30px;
-        width: 1300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -358,13 +370,13 @@ body {
     }
 
     .skills {
+        width: 100%;
         height: 630px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
         padding-bottom: 30px;
         background-color: lightgrey;
-        width: 1300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -382,7 +394,7 @@ body {
     }
 
     .skills-container {
-        width: 1300px;
+        width: 100%;
         font-family: 'Roboto', sans-serif;
         text-align: center;
         display: flex;
@@ -394,13 +406,15 @@ body {
         color: purple;
     } 
 
-    .code, .toolbox, .more {
-        width: 200px;
-        margin: 33px;
+    .code, .toolbox {
+        width: 120px;
+        margin-right: 80px;
     }
 
+    .more {
+        width: 120px;
+    }
     .upcoming {
-        width: 600px;
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         display: flex;
@@ -416,13 +430,13 @@ body {
     }
 
     .for-more {
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
         height: 200px;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
         padding-bottom: 30px;
-        width: 1300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -501,6 +515,7 @@ body {
     }
 
     .contact {
+        width: 100%;
         font-family: 'Montserrat', sans-serif;
         height: 250px;
         padding-top: 30px;
@@ -508,7 +523,6 @@ body {
         padding-left: 300px;
         padding-bottom: 30px;
         background-color:purple;
-        width: 1300px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -529,3 +543,13 @@ body {
     .email , .phone {
         text-decoration: none;
     }
+
+    /*** Media for mobile ***/
+  @media (min-width: 1px) and (max-width: 667px){
+
+  }
+
+  /*** Media for tablet ***/
+  @media (min-width: 668px) and (max-width: 1024px) {
+
+  }
