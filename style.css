@@ -24,7 +24,7 @@ body {
     .title-container {
         top: 60px;
         left: 15%;
-        width: 30%;
+        width: 40%;
         height: auto;
         position: relative;
         z-index: 4;
@@ -96,7 +96,7 @@ body {
         width: 35px;
         height: 35px;
         margin-left: 6px;
-        background: transparent url('./assets/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('./pictures/pictures/header-icons/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
         border: none;
     }
 
@@ -105,7 +105,7 @@ body {
         width: 35px;
         height: 35px;
         margin-left: 1px;
-        background: transparent url('./assets/github.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('./pictures/pictures/header-icons/github.svg') 0% 0% no-repeat padding-box;
         border: none;
     }
 
@@ -113,7 +113,7 @@ body {
         cursor: pointer;
         width: 35px;
         height: 35px;
-        background: transparent url('./assets/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('./pictures/pictures/header-icons/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
         border: none;
     }
 
@@ -147,7 +147,7 @@ body {
         height: 250px;
         padding-right: 300px;
         padding-left: 300px;
-        background-color: lightgrey;
+        background-color: #d9d9d9;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -215,12 +215,12 @@ body {
     .projects-section {
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        height: 1230px;
+        height: 1400px;
         padding-top: 30px;
         padding-right: 200px;
         padding-left: 200px;
         padding-bottom: 30px;
-        background-color: lightgrey;
+        background-color: #d9d9d9;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -265,7 +265,7 @@ body {
 
     .weather-app img, .pizza-bot img, .buisness-site img, .food-review-site img {
         width: 300px;
-        height: 210px;
+        height: auto;
     }
 
     .weather-app a, .pizza-bot a, .buisness-site a, .food-review-site a {
@@ -389,7 +389,7 @@ body {
         padding-right: 300px;
         padding-left: 300px;
         padding-bottom: 30px;
-        background-color: lightgrey;
+        background-color: #d9d9d9;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -511,7 +511,7 @@ body {
         width: 35px;
         height: 35px;
         margin-left: 6px;
-        background: transparent url('./assets-2/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('./pictures/pictures/icons-2/iconmonstr-linkedin-1.svg') 0% 0% no-repeat padding-box;
         border: none;
     }
 
@@ -520,7 +520,7 @@ body {
         width: 35px;
         height: 35px;
         margin-left: 1px;
-        background: transparent url('./assets-2/github.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('./pictures/pictures/icons-2/github.svg') 0% 0% no-repeat padding-box;
         border: none;
     }
 
@@ -528,7 +528,7 @@ body {
         cursor: pointer;
         width: 35px;
         height: 35px;
-        background: transparent url('./assets-2/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('./pictures/pictures/icons-2/93ae73c51933403f4cf8512e8cf05115.svg') 0% 0% no-repeat padding-box;
         border: none;
     }
 
@@ -630,7 +630,7 @@ body {
     }
 
     .projects-section {
-        height: 1350px;
+        height: 1500px;
         padding-right: 10px;
         padding-left: 10px;
     }
@@ -817,7 +817,7 @@ body {
     }
 
     .projects-section {
-        height: 1350px;
+        height: 1500px;
         padding-right: 10px;
         padding-left: 10px;
     }
