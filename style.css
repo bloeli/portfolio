@@ -21,14 +21,17 @@ body {
         z-index: 1;
     }
 
+    .mobile-background-image {
+        display: none;
+    }
+
     .title-container {
-        top: 60px;
+        top: 120px;
         left: 15%;
         width: 40%;
         height: auto;
         position: relative;
         z-index: 4;
-        color: white;
     }
 
     .sub-title-container {
@@ -37,7 +40,9 @@ body {
         margin: 0px;
         padding: 0px;
         font-family: 'Roboto', sans-serif;
+        color: whitesmoke;
         font-size: 20px;
+        margin-left: 4px;
     }
 
     .sub-title-part-1 {
@@ -54,14 +59,16 @@ body {
 
     .title-container h1 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 70px;
+        color: white;
+        font-size: 60px;
         margin: 2px;
         padding: 2px;
     }
 
     .title-container h2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
+        color: whitesmoke;
         margin: 2px;
         padding: 2px;
     }
@@ -71,7 +78,7 @@ body {
         top: 60px;;
         left: 60%;
         z-index: 2;
-        width: 17%;
+        width: 16%;
         display: flex;
         justify-content: space-between;
     }
@@ -119,7 +126,7 @@ body {
 
     .profile-picture {
         top: 270px;
-        left: 58%;
+        left: 60%;
         width: 20%;
         height: auto;
         border-radius: 50%;
@@ -566,11 +573,21 @@ body {
     @media (min-width: 1px) and (max-width: 667px){
  /* HEADER */
     .hero-background-image {
-        height: 450px;
+       display: none;
+    }
+
+    .mobile-background-image {
+        display: block;
+        width: 100%;
+        height: 500px;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 1;
     }
 
     .title-container {
-        top: 120px;
+        top: 180px;
         left: 20px;
         width: 70%;
     }
@@ -592,30 +609,26 @@ body {
     }
 
     .button-icons-container {
-        top: 50px;;
+        top: 100px;
         left: 45%;
-        width: 46%;
+        width: 60%;
+        transform: scale(0.6);
     }
 
     .circle-1, .circle-2, .circle-3 {
-        border: 5px solid #FFFFFF;
-        transform: scale(0.75);
-    }
-
-    .linkedin-icon, .github-icon, .stack-overflow-icon {
-        transform: scale(0.8);
+        border: 3.5px solid #FFFFFF;
     }
 
     .profile-picture {
-        top: 310px;
+        border: 3px white solid;
+        top: 56%;
         left: 50%;
         width: 40%;
-        border: white solid 4px;
     }
 
     /* MAIN/OTHER SECTIONS: */
     .other-sections {
-        top: 450px;
+        top: 500px;
     }
 
     .summary-section {
@@ -751,17 +764,17 @@ body {
         
     /* HEADER */
     .hero-background-image {
-        height: 450px;
+        height: 35%;
     }
 
     .title-container {
-        top: 90px;
+        top: 70px;
         left: 7%;
         width: 30%;
     }
 
     .sub-title-container {
-        font-size: 18px;
+        font-size: 16px;
         width: 300px;
     }
 
@@ -770,22 +783,22 @@ body {
     }
 
     .title-container h1 {
-        font-size: 60px;
+        font-size: 43px;
     }
 
     .title-container h2 {
-        font-size: 20px;
+        font-size: 17px;
         width: 300px;
     }
 
     .button-icons-container {
-        top: 90px;;
+        top: 40px;;
         left: 65%;
         width: 26%;
     }
 
     .circle-1, .circle-2, .circle-3 {
-        border: 5px solid #FFFFFF;
+        border: 3.5px solid #FFFFFF;
         transform: scale(0.75);
     }
 
@@ -794,19 +807,20 @@ body {
     }
 
     .profile-picture {
-        top: 230px;
-        left: 62%;
-        width: 30%;
-        border: white solid 4px;
+        top: 200px;
+        left: 67%;
+        width: 22%;
+        border: white solid 3px;
     }
 
     /* MAIN/OTHER SECTIONS: */
     .other-sections {
-        top: 450px;
+        top: 320px;
     }
 
     .summary-section {
-        height: 250px;
+        height: 200px;
+        margin-top: 30px;
         padding-right: 40px;
         padding-left: 40px;
     }
