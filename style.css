@@ -225,7 +225,7 @@ body {
     .projects-section {
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        height: 1400px;
+        height: 1900px;
         padding-top: 30px;
         padding-right: 200px;
         padding-left: 200px;
@@ -245,6 +245,25 @@ body {
         background-color: purple;
         color: white;
         font-family: 'Montserrat', sans-serif;
+    }
+
+    .latest-project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .latest-project h3 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .code-tags-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .featured-projects-1, .featured-projects-2 {
@@ -273,17 +292,17 @@ body {
         margin-left: 40px;
     }
 
-    .weather-app img, .pizza-bot img, .buisness-site img, .food-review-site img {
+    .project-music-releases img, .weather-app img, .pizza-bot img, .buisness-site img, .food-review-site img {
         width: 300px;
         height: auto;
     }
 
-    .weather-app a, .pizza-bot a, .buisness-site a, .food-review-site a {
+    .project-music-releases a, .weather-app a, .pizza-bot a, .buisness-site a, .food-review-site a {
         text-decoration: none;
         color: black;
     }
 
-    .weather-app h4, .pizza-bot h4, .buisness-site h4, .food-review-site h4 {
+    .project-music-releases h4, .weather-app h4, .pizza-bot h4, .buisness-site h4, .food-review-site h4 {
         color: purple;
     }
 
@@ -392,6 +411,30 @@ body {
     .thoughts h3 {
         color: purple;
     }
+
+    .thoughs-box p {
+        font-family: 'Roboto', sans-serif;
+        overflow: hidden; 
+        border-right: .15em solid black; 
+        white-space: nowrap;
+        margin: 0 auto; 
+        letter-spacing: .10em;
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: black; }
+      }
 
     .skills {
         width: 100%;
@@ -647,7 +690,7 @@ body {
     }
 
     .projects-section {
-        height: 1500px;
+        height: 2100px;
         padding-right: 10px;
         padding-left: 10px;
     }
@@ -836,7 +879,7 @@ body {
     }
 
     .projects-section {
-        height: 1500px;
+        height: 2100px;
         padding-right: 10px;
         padding-left: 10px;
     }
