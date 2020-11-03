@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color:#d9d9d9;
 }
 
 /* MEDIA FOR DESKTOP */
@@ -125,7 +125,7 @@ body {
     }
 
     .profile-picture {
-        top: 310px;
+        top: 50%;
         left: 65%;
         width: 20%;
         height: auto;
@@ -138,12 +138,13 @@ body {
 /* MAIN/OTHER SECTIONS: */
     .other-sections {
         width: 100%;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         position: absolute;
-        top: 550px;
+        top: 500px;
         left: 0;
     }
 
@@ -152,9 +153,10 @@ body {
         font-family: 'Montserrat', sans-serif;
         color: black;
         height: 250px;
+        padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
-        background-color: #d9d9d9;
+        padding-bottom: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -186,6 +188,7 @@ body {
         width: 100%;
         font-family: 'Montserrat', sans-serif;
         height: 250px;
+        background-color: white;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -356,6 +359,7 @@ body {
         width: 100%;
         font-family: 'Montserrat', sans-serif;
         height: 250px;
+        background-color: white;
         padding-top: 30px;
         padding-right: 300px;
         padding-left: 300px;
@@ -396,7 +400,6 @@ body {
         padding-right: 300px;
         padding-left: 300px;
         padding-bottom: 30px;
-        background-color: #d9d9d9;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -457,6 +460,7 @@ body {
     .for-more {
         width: 100%;
         font-family: 'Montserrat', sans-serif;
+        background-color: white;
         height: 200px;
         padding-top: 30px;
         padding-right: 300px;
@@ -587,7 +591,7 @@ body {
     }
 
     .title-container {
-        top: 160px;
+        top: 170px;
         left: 20px;
         width: 80%;
     }
@@ -621,7 +625,7 @@ body {
 
     .profile-picture {
         border: 3px white solid;
-        top: 340px;
+        top: 380px;
         left: 50%;
         width: 40%;
     }
@@ -738,6 +742,7 @@ body {
 
     .for-more {
         height: 200px;
+        background-color: white;
         padding-top: 30px;
         padding-right: 30px;
         padding-left: 30px;
@@ -765,7 +770,6 @@ body {
     /* HEADER */
     .hero-background-image {
         height: 400px;
-      
     }
 
     .title-container {
