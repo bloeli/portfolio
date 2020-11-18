@@ -377,7 +377,7 @@ body {
     .thoughts {
         width: 100%;
         font-family: 'Montserrat', sans-serif;
-        height: 250px;
+        height: 850px;
         background-color: white;
         padding-top: 30px;
         padding-right: 300px;
@@ -388,6 +388,40 @@ body {
         justify-content: center;
         flex-direction: column;
     }
+
+    .thoughts a {
+        text-decoration: none;
+    }
+
+    .thoughts-1-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .thoughts-1-card img {
+        width: 400px;
+        height: auto;
+        border: 1px solid #d9d9d994;
+        padding: 10px;
+        box-shadow: 5px 10px #d9d9d994;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .textbox {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+    }
+
+    .textbox p1 {
+        color: purple;
+    }
+
 
     .h2-thoughts {
         width: fit-content;
@@ -727,16 +761,26 @@ body {
 
     .food-review-site-2 h4, .buisness-site-2 h4{
         margin-right: 20px;
-    }
+    } 
 
     .news-site {
         display: none;
     }
 
     .thoughts {
-        height: 250px;
-        padding-right: 20px;
-        padding-left: 20px;
+        height: 850px;
+        padding-right: 30px;
+        padding-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .thoughts-1-card img {
+        width: 280px;
+    }
+
+    .textbox {
+        width: 300px;
     }
 
     .h2-thoughts {
@@ -879,43 +923,67 @@ body {
     }
 
     .projects-section {
+        font-family: 'Roboto', sans-serif;
         height: 2100px;
+        padding-top: 30px;
         padding-right: 10px;
         padding-left: 10px;
+        padding-bottom: 30px;
+        background-color: #d9d9d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .latest-project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .latest-project h3 {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .code-tags-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .featured-projects-1, .featured-projects-2 {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .weather-app, .buisness-site {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    }
-
-    .weather-app, .buisness-site {
-        margin-right: 0px;
-        margin-bottom: 30px;
+        width: 200px;
+        margin-right: 10px;
     }
 
     .pizza-bot, .food-review-site {
-        margin-left: 0px;
-    }
-
-    .buisness-site, .food-review-site {
-        display: none;
-    }
-
-    .other-projects-container {
-        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 200px;
         margin-left: 10px;
     }
 
-    .food-review-site-2, .buisness-site-2 {
-        display: block;
-    }
-
-    .food-review-site-2 h4, .buisness-site-2 h4{
-        margin-right: 20px;
+    .project-music-releases img, .weather-app img, .pizza-bot img, .buisness-site img, .food-review-site img {
+        width: 100px;
+        height: auto;
     }
 
     .news-site {
@@ -923,9 +991,19 @@ body {
     }
 
     .thoughts {
-        height: 250px;
-        padding-right: 20px;
-        padding-left: 20px;
+        height: 850px;
+        padding-right: 30px;
+        padding-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .thoughts-1-card img {
+        width: 280px;
+    }
+
+    .textbox {
+        width: 300px;
     }
 
     .h2-thoughts {
